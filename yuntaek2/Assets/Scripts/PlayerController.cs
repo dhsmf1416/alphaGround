@@ -6,9 +6,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
     Vector3 velocity;
     Rigidbody myRigidbody;
-
-	// Use this for initialization
-	void Start () {
+    public cameraController maincamera;
+// Use this for initialization
+void Start () {
         myRigidbody = GetComponent<Rigidbody>();
 	}
     public void LookAt(Vector3 lookPoint)
@@ -22,5 +22,6 @@ public class PlayerController : MonoBehaviour {
 
     public void FixedUpdate() {
         myRigidbody.MovePosition(myRigidbody.position + velocity * Time.fixedDeltaTime);
+        maincamera.moveCamera(myRigidbody.position);
     }
 }
