@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yuntaek2", "yuntaek2.csproj", "{976698F7-AA32-65EE-1AB5-F6B5EB334DB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yuntaek2.Editor", "yuntaek2.Editor.csproj", "{DF52BFF1-42EB-11CF-9F36-6B6724F144AA}"
