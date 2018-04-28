@@ -15,14 +15,14 @@ public class player : NetworkBehaviour {
     float nextShotTime;
     public int currentHealth = 100;
     Slider healthSlider;
-    
+    GameObject mainCamera;
     // Use this for initialization
     void Start () {
         controller = GetComponent<PlayerController>();
         joystick = GameObject.FindWithTag("joystick").GetComponent<FixedJoystick>();
         gunstick = GameObject.FindWithTag("gunstick").GetComponent<FixedJoystick>();
         healthSlider = GameObject.FindWithTag("slider").GetComponent<Slider>();
-
+        mainCamera = GameObject.FindWithTag("MainCamera");
         // if(!isLocalPlayer)
         //     GameObject.DestroyImmediate(GetComponent<FixedJoystick>());
         //viewCamera = Camera.main
@@ -44,6 +44,7 @@ public class player : NetworkBehaviour {
         {
             return;
         }
+        mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
         Vector2 moveInput = new Vector2(joystick.Horizontal * 100f, joystick.Vertical * 100f);
         Vector2 moveVelocity = moveInput.normalized * moveSpeed;
         controller.Move(moveVelocity);
