@@ -1,6 +1,6 @@
-WindowsStandalone
+Android
 PlayerPath?
-C:/Users/dhsmf/Desktop/studying/전프/REAL_FINAL_MAP/alpha.exe
+C:/Users/cksdn/Desktop/sample1.apk
 SceneListBegin?
 Assets/Main.unity
 SceneListEnd?

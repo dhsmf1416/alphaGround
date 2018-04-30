@@ -7,7 +7,7 @@ PlayerSettings:
   productGUID: b356030b39bf311409ffc84e56563447
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -639,9 +639,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 90022f11-ac85-48b3-9893-75e5b7b7bebe
-  projectName: REAL_FINAL_MAP (4)
-  organizationId: dhsmf1416
+  cloudProjectId: 605ed2e9-24ec-491e-bc97-6133e47249d6
+  projectName: REAL_FINAL_MAP (2)
+  organizationId: cksdnr314
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

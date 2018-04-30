@@ -9,12 +9,14 @@ public class networkManager : NetworkManager
     {
         StartMatchMaker();
     }
-    public void ServerButton()
+    public void ServerButton(GameObject button)
     {
+        button.SetActive(false);
         matchMaker.CreateMatch("roomName", 4, true, "", "", "", 0, 0, OnInternetMatchCreate);
     }
-    public void ClientButton()
+    public void ClientButton(GameObject button)
     {
+        button.SetActive(false);
         matchMaker.ListMatches(0, 10, "roomName", true, 0, 0, OnInternetMatchList);
     }
     private void OnInternetMatchList(bool success, string extendedInfo, List<MatchInfoSnapshot> matches)

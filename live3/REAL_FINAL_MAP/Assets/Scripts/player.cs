@@ -35,17 +35,12 @@ public class player : NetworkBehaviour {
 
     public void TakeDamage(int amount)
     {
-        if (!isLocalPlayer)
-            return;
-
         currentHealth -= amount;
-        healthSlider.value = currentHealth;
         if(currentHealth <= 0 && alive)
         {
-            alive = false;
-            anim.SetTrigger("Die");
             joystick.transform.position = new Vector3(100000, 10000, 0);
             gunstick.transform.position = new Vector3(100000, 10000, 0);
+            NetworkServer.UnSpawn(gameObject);
         }
     }
     public void HurtAnimator()
@@ -58,6 +53,8 @@ public class player : NetworkBehaviour {
         {
             return;
         }
+        healthSlider.value = currentHealth;
+
         mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10);
         Vector2 moveInput = new Vector2(joystick.Horizontal * 100f, joystick.Vertical * 100f);
         Vector2 moveVelocity = moveInput.normalized * moveSpeed;

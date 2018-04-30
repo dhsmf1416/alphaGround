@@ -1,6 +1,6 @@
-WindowsStandalone
+Android
 PlayerPath?
-C:/Users/dhsmf/Desktop/studying/전프/REAL_FINAL_MAP/alpha.exe
+C:/Users/cksdn/Desktop/sample4.apk
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Main.unity
@@ -120,6 +120,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+60f833786fa90bf2aa6eb58da76523d5 Assembly-CSharp.dll:.Magnetic
 fd2c4262b5bb8e1bd7697031fe4ba2c6 Assembly-CSharp.dll:.FloatingJoystick
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
@@ -161,4 +162,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.bullet
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Projectile
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerController
-60f833786fa90bf2aa6eb58da76523d5 Assembly-CSharp.dll:.Magnetic

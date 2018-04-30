@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/dhsmf/Desktop/studying/전프/REAL_FINAL_MAP/alpha.exe
+C:/Users/cksdn/Desktop/느시/test3.exe
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Main.unity
@@ -123,6 +123,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 fd2c4262b5bb8e1bd7697031fe4ba2c6 Assembly-CSharp.dll:.FloatingJoystick
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+1df234784afa2cbe0613283a35c66908 Assembly-CSharp.dll:.networkManager
 643ca83db58d276d4b716939f6817d91 Assembly-CSharp.dll:.LevelManager
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -159,4 +160,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.bullet
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Projectile
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.PlayerController
-1df234784afa2cbe0613283a35c66908 Assembly-CSharp.dll:.networkManager
